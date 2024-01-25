@@ -13,8 +13,8 @@ import {
 
 //variable for access token
 
-const cID = "62d759ff4ebcc22785e8d2e8";
-const cSecret = "0imka0n1rlb3gx50ct2vwb2yny3984qjw1q8alapxglco76l0i";
+const cID = "";
+const cSecret = "";
 
 // Endpoint
 const discovery = {
@@ -62,7 +62,7 @@ export default function LoginPage() {
       <Image
         alt="Logo"
         source={require("../assets/images/logo.png")}
-        style={{ width: 150, height: 150  , marginTop: 100, marginBottom: 50 }}
+        style={{ width: 150, height: 150, marginTop: 100, marginBottom: 50 }}
       />
       <Text
         style={{
